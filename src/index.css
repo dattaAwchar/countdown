@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+  color: white;
+}
+
+#countdown {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#time {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
